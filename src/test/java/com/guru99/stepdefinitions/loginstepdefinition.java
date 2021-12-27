@@ -56,8 +56,6 @@ public class loginstepdefinition extends baseClassStepDefinition {
         logger.info("User successfully logged out");
         driver.switchTo().alert().accept();
 
-
-
     }
 
     @And("browser should be closed")
