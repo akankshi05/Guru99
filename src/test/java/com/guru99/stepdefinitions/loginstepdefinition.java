@@ -42,7 +42,7 @@ public class loginstepdefinition extends baseClassStepDefinition {
     public void user_should_be_logged_in_successfully() {
         homepageObj = new homepage(driver);
         Assert.assertEquals("GTPL Bank Manager HomePage",homepageObj.gethomepageTitle());
-        logger.info("User has successfully logged in");
+        logger.info("User successfully logged in");
 
 
     }
@@ -53,7 +53,7 @@ public class loginstepdefinition extends baseClassStepDefinition {
         Thread.sleep(3000);
         driver.switchTo().alert();
         Assert.assertEquals("You Have Succesfully Logged Out!!",driver.switchTo().alert().getText());
-        logger.info("User is successfully logged out");
+        logger.info("User successfully logged out");
         driver.switchTo().alert().accept();
 
 
