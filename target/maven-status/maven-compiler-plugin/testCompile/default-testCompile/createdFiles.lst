@@ -1,0 +1,6 @@
+com\guru99\pageobjects\homepage.class
+com\guru99\pageobjects\loginpage.class
+com\guru99\stepdefinitions\loginstepdefinition.class
+com\guru99\stepdefinitions\baseClassStepDefinition.class
+com\guru99\testrunner\TestRun.class
+utilities\ReadConfig.class
